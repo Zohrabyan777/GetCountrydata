@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  color: #555;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.countries {
+  margin: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  opacity: 0;
+  width: 10rem;
+  transition: opacity 1s;
+}
+.country {
+  background-color: #fff;
+  box-shadow: 0.2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  width: 30rem;
+  font-size: 1.8rem;
+  border-radius: 0.7rem;
+  margin: 0.8rem;
+}
