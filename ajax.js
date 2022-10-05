@@ -12,7 +12,7 @@ function getCountryData(country) {
     console.log(data);
     const html = `
   <article class="country">
-  <img class= "county" src="${data.flag}">
+  <img class= "country" src="${data.flag}">
   <div class="country_data">
   <h3 class="country_name">  Country name:${data.name}</h3>
   <h4 class="country_region"> Region:${data.region}</h4>
@@ -29,3 +29,4 @@ function getCountryData(country) {
 
 getCountryData("USA");
 getCountryData("Armenia");
+getCountryData("Germany");
